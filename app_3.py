@@ -16,7 +16,7 @@ import os
 
 # Configurar la base de datos
 SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:oNitUDjwzYzsnxwsynBskuWeksptAiwd@metro.proxy.rlwy.net:57241/railway"
-SQLALCHEMY_DATABASE_URL = os.environ["SQLALCHEMY_DATABASE_URL"]
+
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 metadata = MetaData()
